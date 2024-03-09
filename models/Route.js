@@ -16,11 +16,11 @@ const routeSchema = new mongoose.Schema({
     },
     lat : {
         type : Number,
-        require : true
+        required : true
     },
     lng : {
         type : Number,
-        require : true
+        required : true
     },
     cashCost : {
         type : Number,
